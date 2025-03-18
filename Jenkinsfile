@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run only on main branch') {
             steps {
-                echo "Main branch. Running pipeline..."
+                echo "Main branch... Running pipeline..."
             }
         }
     }
